@@ -1,0 +1,49 @@
+﻿
+.menu {
+	width:90px;
+	height:100%;
+	position: absolute;
+	top: 0;
+	right: -90px;
+	background: #009cff; z-index:999;
+}
+.menu ul{ width:36px; margin-left:27px; margin-top:110px;}
+
+.menu li{ width:36px; height:36px; margin-bottom:22px; display:block;}
+
+.menu li a { opacity:0.6; 	
+	-moz-transition: all .2s ease;
+	-webkit-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;}
+
+
+.menu li a:hover { opacity:1;}
+	
+
+.menu li.on a {
+	opacity: 1;}
+
+
+.close_menu { position:absolute; left:20px; top:20px;
+	-moz-transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease
+}
+
+
+
+
+.logo_menu {height:66px;width:72px; float:right;display: inline-block; position: relative; position:absolute; right:20px; top:20px; z-index:200;}
+.menu_app{height:66px;width:72px; float:right;display: inline-block; position: relative; z-index:200;}
+
+.menu_app button { display: block; margin: 0 auto; padding: 0; width:72px; height:66px; border:none; background: transparent;	 			-webkit-tap-highlight-color: transparent;
+	-webkit-transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s;
+ 	transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s; 
+ 	cursor:pointer; z-index:200; 
+ 	position:absolute;  
+ 	float:right; 
+ 	background: url(img/meun_03.png) no-repeat center #009cff;}
+	
+.menu_app button:hover { background: url(img/menu_03.png) no-repeat center #00578f; color: #fff;}
